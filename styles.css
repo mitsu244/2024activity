@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(to right, #ffecd2, #9feefc); /* 更鲜艳的背景颜色 */
+    background: linear-gradient(to right, #e3efc1, #b5d75f); /* 更鲜艳的背景颜色 */
 }
 
 header {
@@ -103,7 +103,7 @@ footer p {
 
 .feature i {
     font-size: 3em;
-    color: #007bff;
+    color: #1815e9;
     margin-bottom: 0.5em;
 }
 
