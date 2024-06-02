@@ -82,6 +82,10 @@ footer p {
     font-size: 1.2em;
 }
 
+.highlight {
+    color: red; /* 将文本颜色设置为红色 */
+}
+
 .features {
     display: flex;
     justify-content: space-around;
