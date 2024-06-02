@@ -83,7 +83,7 @@ footer p {
 }
 
 .highlight {
-    color: rgb(0, 191, 255); /* 将文本颜色设置为红色 */
+    color: rgb(239, 16, 64); /* 将文本颜色设置为红色 */
 }
 
 .features {
@@ -101,7 +101,7 @@ footer p {
 
 .feature i {
     font-size: 3em;
-    color: #007bff;
+    color: #0fde46;
     margin-bottom: 0.5em;
 }
 
