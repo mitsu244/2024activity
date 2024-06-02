@@ -1,0 +1,144 @@
+/* 通用样式 */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #ffecd2, #fcb69f); /* 更鲜艳的背景颜色 */
+}
+
+header {
+    background: #343a40;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background: #495057;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #6c757d;
+}
+
+footer {
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* 首页样式 */
+.hero {
+    background-size: cover;
+    background-position: center;
+    padding: 5em 1em;
+    color: white;
+    text-align: center;
+}
+
+.welcome {
+    background-size: cover;
+    background-position: center;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2em;
+}
+
+.welcome h2 {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+.welcome p {
+    font-size: 1.2em;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    background: white;
+    margin-top: 2em;
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+}
+
+.feature i {
+    font-size: 3em;
+    color: #007bff;
+    margin-bottom: 0.5em;
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.feature p {
+    font-size: 1em;
+    color: #6c757d;
+}
+
+/* 评分细则页面样式 */
+main {
+    padding: 2em;
+}
+
+.rules h2, .introduction h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.rule-section, .introduction {
+    background: white;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.rule-section h3, .introduction h3 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.rule-section ul, .introduction ul {
+    padding-left: 1em;
+}
+
+.rule-section ul li, .introduction ul li {
+    margin-bottom: 0.5em;
+}
