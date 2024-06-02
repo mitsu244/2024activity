@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(to right, #e3efc1, #b5d75f); /* 更鲜艳的背景颜色 */
+    background: linear-gradient(to right, #ffecd2, #9feefc); /* 更鲜艳的背景颜色 */
 }
 
 header {
@@ -22,7 +22,7 @@ header h1 {
 nav ul {
     display: flex;
     justify-content: center;
-    background: #343a40;
+    background: #495057;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -41,7 +41,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background: #343a40;
+    background: #6c757d;
 }
 
 footer {
@@ -83,26 +83,28 @@ footer p {
 }
 
 .highlight {
-    color: white); /* 将文本颜色设置为红色 */
+    color: white; /* 将文本颜色设置为红色 */
 }
 
 .features {
     display: flex;
+    flex-wrap: wrap; /* 允许换行 */
     justify-content: space-around;
-    padding: 3em;
-    background: white;
-    margin-top: 0.5em;
+    padding: 2em;
+    background: rgba(255, 255, 255, 0.8); /* 半透明背景 */
+    margin-top: 2em;
 }
 
 .feature {
     text-align: center;
     max-width: 300px;
+    margin-bottom: 1em; /* 添加底部间距 */
 }
 
 .feature i {
     font-size: 3em;
-    color: #1815e9;
-    margin-bottom: 1em;
+    color: #007bff;
+    margin-bottom: 0.5em;
 }
 
 .feature h3 {
@@ -111,9 +113,8 @@ footer p {
 }
 
 .feature p {
-    font-size: 1.5em;
-    color: #1815e9;
-
+    font-size: 1em;
+    color: #6c757d;
 }
 
 /* 评分细则页面样式 */
@@ -128,7 +129,7 @@ main {
 }
 
 .rule-section, .introduction {
-    background: white;
+    background: rgba(255, 255, 255, 0.8); /* 半透明背景 */
     padding: 1em;
     margin-bottom: 1em;
     border-radius: 8px;
@@ -146,5 +147,46 @@ main {
 
 .rule-section ul li, .introduction ul li {
     margin-bottom: 0.5em;
+}
+
+/* 媒体查询 */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    .hero {
+        padding: 3em 1em;
+    }
+
+    .welcome h2 {
+        font-size: 1.5em;
+    }
+
+    .welcome p {
+        font-size: 1em;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        max-width: 90%;
+    }
+
+    main {
+        padding: 1em;
+    }
+
+    .rules h2, .introduction h2 {
+        font-size: 1.5em;
+    }
+
+    .rule-section, .introduction {
+        padding: 1em;
+        margin-bottom: 1em;
+    }
 }
 
